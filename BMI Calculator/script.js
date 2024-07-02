@@ -19,7 +19,8 @@ form.addEventListener('submit', function(e){
             result.innerHTML=`<span>Your BMI is ${bmi} </span><br>You are <b>FIT!</b> </span>`
             }
         else{
-            result.innerHTML=`<span>Your BMI is ${bmi} </span><br>Go to Gym</b> </span>`
+            result.innerHTML=`<span>Your BMI is ${bmi} </span><br>Go to GYM</b> </span>`
+
         }
     }
 
