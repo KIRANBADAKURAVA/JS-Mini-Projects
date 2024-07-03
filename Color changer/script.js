@@ -4,7 +4,7 @@ console.log(body);
 
 buttons.forEach(function(button){
     button.addEventListener("click",function(event){
-        
+        console.log(event);
         if(event.target.id==="gray"){
             body.style.backgroundColor="gray"
         }
