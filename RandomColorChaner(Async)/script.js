@@ -15,6 +15,6 @@ function randomcolor(){
 }
 
 start.addEventListener('click',startC)
-stop.addEventListener('click',function(){
+stop.addEventListener('click' , function(){
     clearInterval(int)
 })
