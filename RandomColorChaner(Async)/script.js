@@ -11,7 +11,7 @@ function randomcolor(){
     document.body.style.background=color
 }
    function startC(){
-     int=setInterval(randomcolor,1000)
+     int=setInterval(randomcolor,100)
 }
 
 start.addEventListener('click',startC)
