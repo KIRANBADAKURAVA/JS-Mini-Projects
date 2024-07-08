@@ -19,12 +19,11 @@ body{
     margin: 50px auto;
 }
 .item{
-    display: inline-grid;
+    display:inline-block ;
     border: 2px solid #0C1844;
     border-radius: 10px;
     background-color: aliceblue;
     text-align: center;
-    height: 54px;
     padding: 40px;
     font-size: 70px;
     text-align: center;
